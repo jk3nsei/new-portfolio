@@ -1,0 +1,560 @@
+.navbar-links {
+    position: fixed;
+    top: -100%;
+    z-index: 100;
+    transition: all 0.3s linear;
+  }
+  
+  .navbar-links.active {
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .navbar-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .footer-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons .fab:hover {
+    background: white;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.3 linear;
+    padding: 10px;
+  }
+
+  .section{
+      min-height: 100vh;
+      padding: 10px 10%;
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .profile-image img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-bottom: 247%;
+  }
+
+  .name {
+      position: absolute;
+      top: 558px;
+      font-size: 47px;
+  }
+  
+  #changeText {
+      position: absolute;
+      margin-bottom: 17%;
+      font-weight: bold;
+      color: white;
+      text-shadow: var(--subheading-text-shadow)
+  }
+
+  .content blockquote {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://raw.githubusercontent.com/K3nsei-dev/my-portfolio/main/Images/default-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cards-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .cards-content.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .cards-container-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    min-height: 30vh;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 15px;
+  }
+  
+  .button-container button {
+    background: black;
+    border: 2px solid #1e1f26;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  .button-container button:hover {
+    background: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+  }
+
+  .box {
+    margin: 25px;
+    background: #fff;
+    border: solid black;
+    border-color: black;
+    background-image: url(https://raw.githubusercontent.com/K3nsei-dev/my-portfolio/main/Images/default-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .box1 {
+    border-width: 3px 4px 3px 5px;
+    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(2deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .box2 {
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .box3 {
+    border-width: 5px 3px 3px 5px;
+    border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+    transform: rotate(2deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  .oddboxinner {
+    margin: 15px;
+    transform: rotate(-2deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .evenboxinner {
+    transform: rotate(2deg);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box q {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  
+  .box h3::before,
+  .box h3::after {
+    content: "-";
+  }
+  
+  .box-container p {
+    text-shadow: var(--subheading-text-shadow);
+    color: white;
+  
+  }
+  
+  .comic {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .panel {
+    background-color: #fff;
+    border: solid 2px #000;
+    box-shadow: 0 6px 6px -6px #000;
+    display: inline-block;
+    flex: 1 1;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    min-width: 251px;
+  }
+
+  .text {
+    background-color: #fff;
+    border: solid 2px #000;
+    margin: 0;
+    padding: 3px 10px;
+  }
+  
+  .top-left {
+    left: -6px;
+    position: absolute;
+    top: -2px;
+    transform: skew(-15deg);
+  }
+  
+  .bottom-right {
+    bottom: -2px;
+    position: absolute;
+    right: -6px;
+    transform: skew(-15deg);
+  }
+
+  .panel:nth-child(1) {
+    background-image: url(../Images/contact-form.png);
+    background-size: cover;
+  }
+  
+  .panel:nth-child(2) {
+    background-image: url(../Images/timeline.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .panel:nth-child(3) {
+    background-image: url(../Images/project\ cards.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .panel:nth-child(4) {
+    background-image: url(../Images/slider.png);
+    background-size: cover;
+  }
+  
+  .panel:nth-child(5) {
+    background-image: url(../Images/sneaker-website.png);
+    background-size: cover;
+  }
+  
+  .panel:nth-child(6) {
+    background-image: url(../Images/adding_numbers.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .panel:nth-child(7) {
+    background-image: url(../Images/BMI\ Converter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .panel:nth-child(8) {
+    background-image: url(../Images/item-lister.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .panel:nth-child(9) {
+    background-image: url(../Images/errorhandling.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .panel:nth-child(10) {
+    background-image: url(../Images/tempconvertor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .panel:nth-child(11) {
+    background-image: url(../Images/weatherapp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .panel:nth-child(12) {
+    background-image: url(../Images/sickform.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .project-btn {
+    text-decoration: none;
+    white-space: none;
+  }
+  
+  .btn-1:hover {
+    background: #e63838;
+    border: #e63838;
+    border-radius: 50px;
+    padding: 5px;
+    color: black;
+    transition: all 0.3s linear;
+  }
+
+  icon-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+  
+  .icon-info p{
+    text-shadow: var(--subheading-text-shadow);
+    color: white;
+  }
+  
+  .icon-info a{
+    font-size: 30px;
+  }
+
+  .icon-info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  iframe {
+    display: flex;
+    height: 380px;
+    width: 500;
+    }
+
+    #talkbubble {
+        width: 35vw;
+        margin: 0 auto;
+        background: red;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        background: url(https://us.123rf.com/450wm/azaman357/azaman3571708/azaman357170800005/83782954-high-quality-comic-style-background-halftone-print-texture.jpg?ver=6);
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+        flex-wrap: wrap;
+      }
+      #talkbubble:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 26px;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid #fd3400;
+        border-bottom: 13px solid transparent;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .header {
+        display: none;
+      }
+      
+      .form-input {
+        padding: 10px 5%;
+        border: none;
+        border-bottom: 2px solid #a90000;
+        text-align: center;
+        border-left: 2px solid #a90000;
+        border-radius: 10px;
+        color: #fe3300;
+      }
+      
+      .form-btn {
+        text-decoration: none;
+        white-space: none;
+        background: #fd3400;
+        border: 1px solid #fd3400;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .form-btn:hover {
+        background: #af0000;
+        border-radius: 50px;
+        border: 1px solid #af0000;
+        transition: all 0.3s linear;
+        color: white;
+      }
+      
+      .form-map-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+        gap: 20px;
+      }
+      
+      .map-container {
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .form-container{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .box-testimonials {
+        margin: 25px;
+        background: #fff;
+        border: solid black;
+        border-color: black;
+        /* background-image: url(/Images/comicbookbackground7.jpg); */
+        background-size: cover;
+        background-position: center;
+        flex-direction: row;
+        position: relative;
+        height: 50vh;
+        overflow: hidden;
+      
+      }
+      
+      .box-testimonials q {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding: 15px;
+      }
+      
+      .testimonial-text {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .testimonial-text h4{
+        text-align: center;
+      }
+      
+      .box-testimonials h2,
+      h4,
+      q{
+        text-shadow: var(--subheading-text-shadow);
+      }
+      
+      .box-container .fab{
+        text-shadow: var(--subheading-text-shadow);
+        color: white;
+      }
+      
+      .testimonial-overlay {
+        opacity: 0.4;
+      }
+      
+      .testimonial-image,
+      .testimonial-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        object-position: top;
+        height: 100%;
+        width: 100%;
+      }
+      
+      .testimonial-text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }

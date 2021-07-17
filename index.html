@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeandre Awood</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Images/LCA-Icon.png" type="image" />
+        <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/3285114a98.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/imported.css">
+    <link rel="stylesheet" href="./Styles/speech.scss">
+    <link rel="stylesheet" href="./Styles/speech.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul id="myMenu" class="navbar-links">
+          <li data-menuanchor="firstPage" class="navbar-link">
+            <a href="#homePage">Home</a>
+          </li>
+          <li data-menuanchor="secondPage" class="navbar-link">
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li data-menuanchor="thirdPage" class="navbar-link">
+            <a href="#workPage">Work and Education</a>
+          </li>
+          <li data-menuanchor="fourthPage" class="navbar-link">
+            <a href="#skillsPage">Skills</a>
+          </li>
+          <li data-menuanchor="fifthPage" class="navbar-link">
+            <a href="#projectsPage">Projects</a>
+          </li>
+          <li data-menuanchor="sixthPage" class="navbar-link">
+            <a href="#testimonialPage">Testimonials</a>
+          </li>
+          <li data-menuanchor="seventhPage" class="navbar-link">
+            <a href="#contactPage">Contact Me</a>
+          </li>
+        </ul>
+        <button class="navbar-button" onclick="toggleNavbar()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <!-- Home Page -->
+    <div class="section about-me-section">
+        <div id="homePage" class="content">
+                <!-- Speech Bubble -->
+    <div class="bubble-section">
+      <blockquote class="electric bubble">Autobots,<span>Attack!</span></blockquote>
+    </div>
+            <div>
+              <div>
+                <div class="heading-container">
+                  <div class="profile-image">
+                    <img src="/Images/Jeandre Awood No Background.png" alt="" />
+                  </div>
+                  <h1 class="name">Jeandre Awood</h1>
+                  <div id="changeText">Aspiring Frontend Developer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- About Me Page -->
+    <div class="section about-me-section" id="aboutMe">
+        <h1>About Me</h1>
+        <div class="slide" data-anchor="slide1">
+          <div class="content">
+            <blockquote>
+              <p>
+                <strong>Did You Know:</strong> I am an extremely motivated
+                individual who is constantly looking to develop my skills and
+                grow professionally. I am confident in my ability to come up
+                with interesting ideas to make the impossible possible. I am
+                goal-driven, self-disciplined, and a fast learner that thrives
+                under pressure. I have excellent communication skills which are
+                executed in a professional and friendly manner which were
+                further developed through the completion of my undergraduate and
+                postgraduate degrees in psychology.
+              </p>
+            </blockquote>
+    </div>
+    </div>
+        <div class="content">
+          <blockquote>
+            <p>
+              <strong>Did You Know:</strong> My passion for technology started
+              at a young age when I was given my first console - the
+              PlayStation 1. This was a catalyst for merging myself into the
+              tech industry because I always wanted to keep up to date with
+              the latest cellphone and gaming consoles that were being
+              released. I also used to do IT in primary school and this
+              further intensified my passion for the tech industry given how
+              quickly it grasped my attention and played on my need and want
+              to learn about anything and everything technology-based.
+            </p>
+          </blockquote>
+        </div>
+            <div class="content">
+              <blockquote>
+                <p>
+                  <strong>Did You Know:</strong> Some of my hobbies and activities
+                  include Sports - particularly Football and Formula 1,
+                  Mobile/Console/PC Gaming, IT, Community Service where I educate
+                  individuals surrounding Mental Health and the stigma associated,
+                  Psychology, and Cooking. A lot of these were developed at a
+                  young age but my hobbies within Psychology were mainly defined
+                  during my studies where I saw myself growing into a Mental
+                  Health Activist. I found myself wanting to destignmatise the
+                  negative connatations surrounding Mental Health.
+                </p>
+              </blockquote>
+            </div>
+    </div>
+    <!-- Work and Education -->
+    <div class="section work-and-education", id="workPage">
+            <h1>Work & Education</h1>
+            <div class="button-container">
+              <button onclick="showTab('education-cards')">Education</button>
+              <button onclick="showTab('work-cards')">Work</button>
+            </div>
+            <div class="cards-container-about">
+              <div id="education-cards" class="cards-content active">
+                <h2>Education</h2>
+                <div class="cards">
+                  <p>
+                    <b>Life Choices Coding Academy (2021):</b> Fullstack Developer
+                    Course
+                  </p>
+                </div>
+                <div class="cards">
+                  <p>
+                    <b>The South African College of Applied Psychology (2020):</b>
+                    Bachelor of Social Science Honours in Psychology
+                  </p>
+                </div>
+                <div class="cards">
+                  <p>
+                    <b>The South African College of Applied Psychology (2019):</b>
+                    Bachelor of Applied Social Science Majoring in Counselling and
+                    Psychology
+                  </p>
+                </div>
+                <div class="cards">
+                  <p>
+                    <b>Bergvliet High School (2016):</b> National Senior Certificate
+                  </p>
+                </div>
+              </div>
+              <div id="work-cards" class="cards-content">
+                <h2>Work Experience</h2>
+                <div class="cards">
+                  <p>
+                    <b>NextPathology(Dec 2020 - Jan 2021):</b> Administrative
+                    Assistant
+                  </p>
+                </div>
+                <div class="cards">
+                  <p>
+                    <b>Bergvliet High School (Sep 2019 - Nov 2019):</b> Intern
+                    Counsellor
+                  </p>
+                </div>
+                <div class="cards">
+                  <p>
+                    <b>SDD Properties (Jan 2018 - Dec 2018):</b> Administrative
+                    Assistant
+                  </p>
+                </div>
+                <div class="cards">
+                  <p><b>Fair House Home School (Jan 2017 - Dec 2017):</b> Tutor</p>
+                </div>
+              </div>
+            </div>
+    </div>
+    <!-- Skills Page -->
+      <div class="section" id="skillsPage">
+        <div id="skills-container" class="content">
+          <h1>My Skills</h1>
+          <div class="box-container">
+            <div class="box box1">
+              <h3 class="oddboxinner">HTML</h3>
+              <div class="card-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+            </div>
+            <div class="box box2">
+              <h3 class="evenboxinner">CSS</h3>
+              <div class="card-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+            </div>
+            <div class="box box3">
+              <h3 class="oddboxinner">Python</h3>
+              <div class="card-icon">
+                <i class="fab fa-python"></i>
+              </div>
+            </div>
+            <div class="box box1">
+              <h3 class="oddboxinner">SCSS</h3>
+              <div class="card-icon">
+                <i class="fab fa-sass"></i>
+              </div>
+            </div>
+            <div class="box box2">
+                <h3 class="evenboxinner">JavaScript</h3>
+                <div class="card-icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+              </div>
+              <div class="box box3">
+                <h3 class="oddboxinner">MySQL</h3>
+                <div class="card-icon">
+                    <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png"/>
+                </div>
+          </div>
+          <div class="box box1">
+            <h3 class="oddboxinner">Flask</h3>
+            <div class="card-icon">
+                <img src="https://img.icons8.com/ios/100/000000/flask.png"/>
+            </div>
+          </div>
+          <div class="box box2">
+              <h3 class="evenboxinner">React</h3>
+              <div class="card-icon">
+                <i class="fab fa-react"></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+      <!-- Projetcs -->
+      <div class="section" id="projectsPage">
+        <div id="projects-container" class="content">
+          <h1>My Projects</h1>
+          <div class="comic">
+            <!-- project 1 -->
+            <div class="panel">
+              <p class="text top-left">HTML/CSS (Contact Form)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/contact-form"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://lca-contact-form.netlify.app/"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 2 -->
+            <div class="panel">
+              <p class="text top-left">HTML/CSS (Timeline)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/timeline"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://lca-timeline.netlify.app/"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 3 -->
+            <div class="panel">
+              <p class="text top-left">HTML/CSS (Project Cards)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/my-project-cards"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://lca-projects.netlify.app/"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 4 -->
+            <div class="panel">
+              <p class="text top-left">HTML/CSS (Slider)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/slider"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://lca-testimonials.netlify.app/"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 5 -->
+            <div class="panel">
+              <p class="text top-left">HTML/CSS (Sneaker Website)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/sneaker-website"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://sneaker-website.netlify.app/"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 6 -->
+            <div class="panel">
+              <p class="text top-left">PYTHON (Adding Two Numbers)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/tkinter-adding-numbers"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://replit.com/@K3nsei/Tkinter-Exercise"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- project 7 -->
+            <div class="panel">
+              <p class="text top-left">PYTHON/TKINTER (BMI Converter)</p>
+              <div class="text bottom-right">
+                <a
+                  class="project-btn btn-1"
+                  href="https://github.com/K3nsei-dev/BMI-Converter"
+                  target="_blank"
+                  >CODE BASE /</a
+                >
+                <a
+                  class="project-btn btn-1"
+                  href="https://replit.com/@K3nsei/BMI-Converter"
+                  target="_blank"
+                  >LIVE</a
+                >
+              </div>
+            </div>
+            <!-- Project 8 -->
+              <div class="panel">
+                <p class="text top-left">HTML/JAVASCRIPT (Item Lister)</p>
+                <div class="text bottom-right">
+                  <a
+                     class="project-btn btn-1"
+                     href="https://github.com/K3nsei-dev/item-lister"
+                     target="_blank"
+                    >CODE BASE /</a
+                 >
+                  <a
+                      class="project-btn btn-1"
+                      href="https://lca-itemlister.netlify.app/"
+                      target="_blank"
+                      >LIVE</a
+                 >
+                  </div>
+             </div>
+             <!-- Project 9 -->
+              <div class="panel">
+                <p class="text top-left">PYTHON/TKINTER (Error Handling)</p>
+                <div class="text bottom-right">
+                  <a
+                    class="project-btn btn-1"
+                    href="https://github.com/K3nsei-dev/error-handling"
+                    target="_blank"
+                    >CODE BASE /</a
+                  >
+                  <a
+                    class="project-btn btn-1"
+                    href="https://replit.com/@K3nsei/error-handling#main.py"
+                    target="_blank"
+                    >LIVE</a
+                  >
+                </div>
+              </div>
+              <!-- Project 10 -->
+              <div class="panel">
+                <p class="text top-left">PYTHON/TKINTER (Temp Convertor)</p>
+                <div class="text bottom-right">
+                  <a
+                    class="project-btn btn-1"
+                    href="https://github.com/K3nsei-dev/temperature-converter"
+                    target="_blank"
+                    >CODE BASE /</a
+                  >
+                  <a
+                    class="project-btn btn-1"
+                    href="https://replit.com/@K3nsei/temperature-converter"
+                    target="_blank"
+                    >LIVE</a
+                  >
+                </div>
+              </div>
+             <!-- Project 11 -->
+              <div class="panel">
+                <p class="text top-left">PYTHON/TKINTER (Weather App)</p>
+                <div class="text bottom-right">
+                  <a
+                    class="project-btn btn-1"
+                    href="https://github.com/K3nsei-dev/weather-app"
+                    target="_blank"
+                    >CODE BASE /</a
+                  >
+                  <a
+                    class="project-btn btn-1"
+                    href="https://replit.com/@K3nsei/weather-app#main.py"
+                    target="_blank"
+                    >LIVE</a
+                  >
+                </div>
+                </div>
+              <!-- Project 12 -->
+              <div class="panel">
+                <p class="text top-left">PYTHON/TKINTER (Sick Form)</p>
+                <div class="text bottom-right">
+                  <a
+                    class="project-btn btn-1"
+                    href="https://github.com/K3nsei-dev/sick-form"
+                    target="_blank"
+                    >CODE BASE /</a
+                  >
+                  <a
+                    class="project-btn btn-1"
+                    href="https://replit.com/@K3nsei/Sick-Form#main.py"
+                    target="_blank"
+                    >LIVE</a
+                  >
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Testimonials -->
+      <div class="section" id="testimonialPage">
+        <div id="testimonial-container" class="content">
+          <h1>Testimonials</h1>
+            <div class="box-testimonials box1">
+              <img
+                class="testimonial-image"
+                src="https://www.lifechoices.co.za/sites/default/files/2021-03/2021-team-jason-wandrag.jpg"
+                alt="Jason Wandrag"
+              />
+              <img
+                class="testimonial-overlay"
+                src="./Images/comicbookbackground7.jpg"
+                alt="Overlay"
+              />
+
+              <div class="testimonial-text">
+                <h2 class="oddboxinner">Jason Wandrag</h2>
+                <h4>Frontend Lecturer</h4>
+                <q
+                  >Jeandre is both clever and creative. With his curiosity and
+                  hard-working nature as a driving force, there is nothing he
+                  will not be able to accomplish.</q
+                >
+              </div>
+            </div>
+            <div class="box-testimonials box2">
+              <img
+                class="testimonial-image"
+                src="https://www.lifechoices.co.za/sites/default/files/2020-01/godwin-dzvapatsra.jpg"
+                alt="godwin Dzvapatsra"
+              />
+              <img
+                src="./Images/comicbookbackground7.jpg"
+                alt="overlay"
+                class="testimonial-overlay"
+              />
+              <div class="testimonial-text">
+                <h2 class="evenboxinner">Godwin Dzvapatsva</h2>
+                <h4>Head of Curriculum and Learning</h4>
+                <q
+                  >It is a pleasure to work with Jeandre. He is confident and
+                  open to suggestion.</q
+                >
+              </div>
+            </div>
+            <div class="box-testimonials box3">
+              <img
+                class="testimonial-image"
+                src="https://www.lifechoices.co.za/sites/default/files/2020-01/candice-amon.png"
+                alt="Candice Amon"
+              />
+              <img
+                src="./Images/comicbookbackground7.jpg"
+                alt="overlay"
+                class="testimonial-overlay"
+              />
+              <div class="testimonial-text">
+                <h2 class="oddboxinner">Candice Amon</h2>
+                <h4>Head of Personal & Professional Development</h4>
+                <q
+                  >Jeandre is an indivdiual who is very curious in understanding
+                  everything which is his motivation to do his best at every
+                  task at hand. Has the ability to analyze and problem solve
+                  challenges on his plate. Gets along with his peers and is not
+                  afraid to give his opinion when asked.
+                </q>
+              </div>
+            </div>
+            <div class="box-testimonials box1">
+              <img
+                src="./Images/C8 Apr21 Justin Calvert (2).JPG"
+                alt="Justin Calvery"
+                class="testimonial-image"
+              />
+              <img
+                src="./Images/comicbookbackground7.jpg"
+                alt="overlay"
+                class="testimonial-overlay"
+              />
+              <div class="testimonial-text">
+                <h2 class="oddboxinner">Justin Calvert</h2>
+                <h4>Colleague</h4>
+                <q
+                  >Jeandre is the kind of person that goes out of his way to
+                  help individuals when they are in need. He copes well with
+                  pressure and stressful situations</q
+                >
+              </div>
+            </div>
+            <div class="box-testimonials box2">
+              <img
+                src="./Images/C8 Apr21 Abdullah Isaacs (4).JPG"
+                alt="Abdullah Isaacs"
+                class="testimonial-image"
+              />
+              <img
+                src="./Images/comicbookbackground7.jpg"
+                alt="overlay"
+                class="testimonial-overlay"
+              />
+              <div class="testimonial-text">
+                <h2 class="evenboxinner">Abdullah Isaacs</h2>
+                <h4>Colleague</h4>
+                <q
+                  >Jeandre is an extremely motivated and creative person who is
+                  always looking to develop his skills in order to to keep
+                  growing as a professional. He is confident in his abilities to
+                  always come up with different ideas to handle any difficult
+                  tasks he’s faced with. He’s a hard working individual who
+                  doesn’t mind helping others when they require assistance of
+                  him. This stems from his psychology degree and just the type
+                  of person he is. I have no doubt that Jeandre will become an
+                  amazing full stack developer one day if he continues on the
+                  path he’s currently on.</q
+                >
+              </div>
+            </div>
+        </div>
+      </div>
+    <!-- Contact Page -->
+    <!-- Footer and Cat -->
+    <div class="outer_wrapper">
+      <div class="wrapper">
+        <div class="cat_wrapper">
+          <div class="cat first_pose">
+            <div class="cat_head">
+              <svg
+                x="0px"
+                y="0px"
+                width="100%"
+                height="100%"
+                viewBox="0 0 76.4 61.2"
+              >
+                <polygon
+                  class="eyes"
+                  points="63.8,54.1 50.7,54.1 50.7,59.6 27.1,59.6 27.1,54.1 12.4,54.1 12.4,31.8 63.8,31.8 "
+                />
+                <path
+                  d="M15.3,45.9h5.1V35.7h-5.1C15.3,35.7,15.3,45.9,15.3,45.9z M45.8,56.1V51H30.6v5.1H45.8z M61.1,35.7H56v10.2h5.1
+                    V35.7z M10.2,61.2v-5.1H5.1V51H0V25.5h5.1V15.3h5.1V5.1h5.1V0h5.1v5.1h5.1v5.1h5.1v5.1c0,0,15.2,0,15.2,0v-5.1h5.1V5.1H56V0h5.1v5.1
+                    h5.1v10.2h5.1v10.2h5.1l0,25.5h-5.1v5.1h-5.1v5.1H10.2z"
+                />
+              </svg>
+            </div>
+            <div class="body">
+              <svg
+                x="0px"
+                y="0px"
+                width="100%"
+                height="100%"
+                viewBox="0 0 91.7 40.8"
+              >
+                <path
+                  class="st0"
+                  d="M91.7,40.8H0V10.2h5.1V5.1h5.1V0h66.2v5.1h10.2v5.1h5.1L91.7,40.8z"
+                />
+              </svg>
+
+              <div class="tail">
+                <svg
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 25.5 61.1"
+                >
+                  <polygon
+                    class="st0"
+                    points="10.2,56 10.2,50.9 5.1,50.9 5.1,40.7 0,40.7 0,20.4 5.1,20.4 5.1,10.2 10.2,10.2 10.2,5.1 15.3,5.1 
+                      15.3,0 25.5,0 25.5,10.2 20.4,10.2 20.4,15.3 15.3,15.3 15.3,20.4 10.2,20.4 10.2,40.7 15.3,40.7 15.3,45.8 20.4,45.8 20.4,50.9 
+                      25.5,50.9 25.5,61.1 15.3,61.1 15.3,56 "
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <div class="front_legs">
+              <div class="leg one">
+                <svg
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 14 30.5"
+                >
+                  <polygon
+                    points="15.3,30.5 5.1,30.5 5.1,25.4 0,25.4 0,0 15.3,0 "
+                  />
+                </svg>
+              </div>
+              <div class="leg two">
+                <svg
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 14 30.5"
+                >
+                  <polygon
+                    points="15.3,30.5 5.1,30.5 5.1,25.4 0,25.4 0,0 15.3,0 "
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <div class="back_legs">
+              <div class="leg three">
+                <svg
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 14 30.5"
+                >
+                  <polygon
+                    points="15.3,30.5 5.1,30.5 5.1,25.4 0,25.4 0,0 15.3,0 "
+                  />
+                </svg>
+              </div>
+              <div class="leg four">
+                <svg
+                  x="0px"
+                  y="0px"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 14 30.5"
+                >
+                  <polygon
+                    points="15.3,30.5 5.1,30.5 5.1,25.4 0,25.4 0,0 15.3,0 "
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="ground">
+              <div class="footer-container">
+                <div>
+                  <i class="far fa-copyright"></i>
+                  <p>Jeandre Awood</p>
+                </div>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/jrawood" target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="https://github.com/K3nsei-dev" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="https://codepen.io/K3nsei-dev" target="_blank"
+                    ><i class="fab fa-codepen"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+        </div>
+      <div class="section" id="contactPage">
+        <h1>Contact Me</h1>
+        <div id="contact-container" class="content">
+          <div class="details-container">
+            <div class="icon-container">
+              <div class="icon-info">
+                <a href="tel:+27631922598"><i class="fas fa-phone-alt"></i></a>
+                <p>063 192 2598</p>
+              </div>
+              <div class="icon-info">
+                <a
+                  href="https://api.whatsapp.com/send?phone=0835851644"
+                  target="_blank"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+                <p>083 585 1644</p>
+              </div>
+              <div class="icon-info">
+                <a href="mailto:jeandreross@gmail.com" target="_blank"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <p>jeandreross@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-map-container">
+            <div class="form-container">
+              <form action="https://formspree.io/f/xleagqab" method="POST">
+                <div id="talkbubble">
+                  <div class="form-group">
+                    <label for="name" class="header form-label"
+                      >Your Name:</label
+                    >
+                    <input
+                      id="name"
+                      type="text"
+                      required
+                      placeholder="Full Name"
+                      name="name"
+                      class="form-input input-1"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="contact" class="header" class="form-label"
+                      >Your Number:</label
+                    >
+                    <input
+                      id="contact"
+                      type="tel"
+                      name="contact"
+                      required
+                      placeholder="083 555 6789"
+                      min="10"
+                      max="10"
+                      class="form-input input-2"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="header" class="form-label"
+                      >Your Email:</label
+                    >
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      required
+                      placeholder="example@mail.com"
+                      class="form-input input-3"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="header" class="form-label"
+                      >Your Message:</label
+                    >
+                    <textarea
+                      name="message"
+                      class="form-input input-4"
+                      id="name"
+                      required
+                      placeholder="Type your message here..."
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="form-btn input-5">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52885.71401090228!2d18.48326913149476!3d-34.06035837725899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc415380a3a2d5%3A0x45665c22acda837!2sGrassy%20Park%2C%20Cape%20Town%2C%207941!5e0!3m2!1sen!2sza!4v1620900727391!5m2!1sen!2sza"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>

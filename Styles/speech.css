@@ -1,0 +1,36 @@
+.bubble-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+blockquote.bubble {
+  background-repeat: no-repeat !important;
+  margin: 0 auto;
+  text-align: center;
+  height: 0;
+  line-height: 1;
+  top: 80px;
+  left: -200px;
+  border: none;
+}
+
+blockquote.electric {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg);
+  width: 25%;
+  font-size: 2.4vw;
+  font-style: italic;
+  padding: 4% 6% 12% 0%;
+}
+
+blockquote.electric span {
+  display: block;
+  font-size: 3vw;
+  font-weight: bold;
+}
+/*# sourceMappingURL=speech.css.map */
