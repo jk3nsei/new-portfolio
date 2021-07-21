@@ -548,6 +548,7 @@
       h4,
       q{
         text-shadow: var(--subheading-text-shadow);
+        text-align: center;
       }
       
       .box-container .fab{
@@ -686,7 +687,9 @@
 }
 
 #changeText {
-  margin-bottom: 115%;
+  
+  margin-bottom: 90%;
+
 }
 
 blockquote.electric {
@@ -735,5 +738,25 @@ blockquote.electric {
 
 .details-container {
   margin-top: 50px;
+}
+}
+
+@media screen and (max-width: 414px) {
+  #education-cards {
+    margin-top: 160%;
+}
+
+#work-cards {
+  margin-top: -340%;
+}
+}
+
+@media screen and (max-width: 375px) {
+#education-cards {
+  margin-top: 205%;
+}
+
+#work-cards {
+  margin-top: -435%;
 }
 }
