@@ -1,3 +1,24 @@
+.gold {
+  background-color: #dc9931;
+}
+
+.end-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "blambot-fx-pro", sans-serif;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 0.25em 0.5em;
+  margin: 0.5em 1em 0 0;
+  color: #fff;
+  background-color: #f16622;
+  transform: skewX(-12deg) rotate(-3deg);
+  -webkit-box-shadow: 8px 8px 0px -1px #454546;
+  -moz-box-shadow: 8px 8px 0px -1px #454546;
+  box-shadow: 8px 8px 0px -1px #454546;
+}
+
 .btn-wrapper {
   display: flex;
   justify-content: center;
@@ -799,6 +820,10 @@ path.two {
     }
 
   @media screen and (max-width: 440px) {
+.end-btn {
+  margin-top: 0%;
+}
+
     .navbar-button {
       right: -15px !important;
     }
@@ -897,5 +922,27 @@ blockquote.electric {
 
 .cta {
   font-size: 15px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .end-btn{
+    margin-top: -35px;
+  }
+  
+  .details-container {
+    margin-top: 18px;
+  }
+
+  #talkbubble {
+    margin-top: -8%;
+  }
+
+  #education-cards {
+    margin-top: 240%;
+}
+
+#work-cards {
+  margin-top: -505%;
 }
 }
