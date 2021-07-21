@@ -30,41 +30,52 @@
     <link rel="stylesheet" href="./Styles/imported.css">
     <link rel="stylesheet" href="./Styles/speech.scss">
     <link rel="stylesheet" href="./Styles/speech.css">
+    <link rel="stylesheet" href="./Styles/loader.scss">
+    <link rel="stylesheet" href="./Styles/loader.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <ul id="myMenu" class="navbar-links">
-          <li data-menuanchor="firstPage" class="navbar-link">
-            <a href="#homePage">Home</a>
-          </li>
-          <li data-menuanchor="secondPage" class="navbar-link">
-            <a href="#aboutMe">About Me</a>
-          </li>
-          <li data-menuanchor="thirdPage" class="navbar-link">
-            <a href="#workPage">Work and Education</a>
-          </li>
-          <li data-menuanchor="fourthPage" class="navbar-link">
-            <a href="#skillsPage">Skills</a>
-          </li>
-          <li data-menuanchor="fifthPage" class="navbar-link">
-            <a href="#projectsPage">Projects</a>
-          </li>
-          <li data-menuanchor="sixthPage" class="navbar-link">
-            <a href="#testimonialPage">Testimonials</a>
-          </li>
-          <li data-menuanchor="seventhPage" class="navbar-link">
-            <a href="#contactPage">Contact Me</a>
-          </li>
-        </ul>
-        <button class="navbar-button" onclick="toggleNavbar()">
-          <i class="fas fa-bars"></i>
-        </button>
-      </nav>
-      <!-- Home Page -->
-    <div class="section about-me-section">
-        <div id="homePage" class="content">
-                <!-- Speech Bubble -->
+  <!-- loader -->
+  <div class="loader-container">
+    <div class="loader book">
+      <figure class="page"></figure>
+      <figure class="page"></figure>
+      <figure class="page"></figure>  
+    </div>
+    <h4>Loading</h4>
+</div>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul id="myMenu" class="navbar-links">
+      <li data-menuanchor="firstPage" class="navbar-link">
+        <a href="#homePage">Home</a>
+      </li>
+      <li data-menuanchor="secondPage" class="navbar-link">
+        <a href="#aboutMe">About Me</a>
+      </li>
+      <li data-menuanchor="thirdPage" class="navbar-link">
+        <a href="#workPage">Work and Education</a>
+      </li>
+      <li data-menuanchor="fourthPage" class="navbar-link">
+        <a href="#skillsPage">Skills</a>
+      </li>
+      <li data-menuanchor="fifthPage" class="navbar-link">
+        <a href="#projectsPage">Projects</a>
+      </li>
+      <li data-menuanchor="sixthPage" class="navbar-link">
+        <a href="#testimonialPage">Testimonials</a>
+      </li>
+      <li data-menuanchor="seventhPage" class="navbar-link">
+        <a href="#contactPage">Contact Me</a>
+      </li>
+    </ul>
+    <button class="navbar-button" onclick="toggleNavbar()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+  <!-- Home Page -->
+  <div class="section about-me-section">
+    <div id="homePage" class="content">
+      <!-- Speech Bubble -->
     <div class="bubble-section">
       <blockquote class="electric bubble">Autobots,<span>Attack!</span></blockquote>
     </div>
@@ -711,6 +722,7 @@
         </div>
       </div>
     <!-- Script tags under here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./index.js"></script>

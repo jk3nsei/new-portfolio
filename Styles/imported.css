@@ -11,6 +11,7 @@
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
     /* scroll-behavior: smooth; */
+    /* display: none */
   }
   
   /* Theme */

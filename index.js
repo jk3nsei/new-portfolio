@@ -98,3 +98,9 @@ function showTab(elementId) {
   
     document.getElementById(elementId).classList.add("active");
   }
+
+  // loader 
+  $(window).on("load", () =>{
+    $(".loader-container").fadeToggle(5000);
+    page.style.overflow = "visible";
+  });
