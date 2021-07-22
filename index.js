@@ -100,10 +100,16 @@ function showTab(elementId) {
   }
 
   // loader 
-  $(window).on("load", () =>{
-    $(".loader-container").fadeToggle(5000);
-    page.style.overflow = "visible";
+  // $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+  $(window).on('load', function(){
+    setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
   });
+  function removeLoader(){
+      $( ".loader-container" ).fadeOut(500, function() {
+        // fadeOut complete. Remove the loading div
+        $( ".loader-container" ).remove(); //makes page more lightweight 
+    });  
+  }
 
   // project cards
   let projects = [
@@ -265,8 +271,8 @@ function showTab(elementId) {
   function createCard(card) {
     let createdCard = `<div class="panel" techStack=${card.techStack} >
         <p class="text top-left">${card.description}</p>
-        <div class="text bottom-left"><a href="${card.githubURL}" target="_blank">Code Base</a></div>
-        <div class="text bottom-right"><a href="${card.liveProjectURL}" target="_blank">Live</a></div>
+        <div class="text bottom-left effect"><a href="${card.githubURL}" target="_blank">Code Base</a></div>
+        <div class="text bottom-right effect"><a href="${card.liveProjectURL}" target="_blank">Live</a></div>
       </div>
     `;
     return createdCard;

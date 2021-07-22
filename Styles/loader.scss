@@ -4,14 +4,16 @@ $block-color: #EEE;
 $page-color: #FFF;
 
 .loader-container{  
-    text-align: center;
-    background-color: $page-color;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+      text-align: center;
+      background-color: $page-color;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: fixed;
+      z-index: 666;
     h4 {
       color: $border-color;
       text-transform: uppercase;

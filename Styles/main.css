@@ -33,7 +33,7 @@
     color: white;
     background: black;
     transition: 1s;
-    box-shadow: 6px 6px 0 red;
+    box-shadow: 6px 6px 0 #e63838;
     transform: skewX(-15deg);
 }
 
@@ -105,6 +105,11 @@ path.two {
     100% {
         fill: white;
     }
+}
+
+.effect:hover {
+    background-color: #e63838;
+    transition: all 0.5s linear;
 }
 
 .navbar-links {
@@ -234,7 +239,6 @@ path.two {
   .cards-container-about {
     text-align: center;
     position: relative;
-    /* min-height: 30vh; */
   }
 
   .button-container {
@@ -257,8 +261,8 @@ path.two {
   }
   
   .button-container button:hover {
-    background: red;
-    border: 2px solid red;
+    background: #e63838;
+    border: 2px solid #e63838;
     color: white;
     border-radius: 50px;
     transition: all 0.3s linear;
@@ -361,7 +365,6 @@ path.two {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    /* width: 90%; */
   }
   
   .panel {
@@ -573,7 +576,7 @@ path.two {
     #talkbubble {
         width: 35vw;
         margin: 0 auto;
-        background: red;
+        background: #e63838;
         position: relative;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -628,12 +631,13 @@ path.two {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-transform: uppercase;
       }
       
       .form-btn:hover {
-        background: #af0000;
+        background: black;
         border-radius: 50px;
-        border: 1px solid #af0000;
+        border: 1px solid black;
         transition: all 0.3s linear;
         color: white;
       }
@@ -662,7 +666,6 @@ path.two {
         background: #fff;
         border: solid black;
         border-color: black;
-        /* background-image: url(/Images/comicbookbackground7.jpg); */
         background-size: cover;
         background-position: center;
         flex-direction: row;
