@@ -737,8 +737,8 @@ path.two {
       
       @media screen and (max-width: 1908px) {
         .end-btn {
-          margin-top: -1%;
-          transform: skew(-12deg) rotate(-2deg);
+          margin-top: -1% !important;
+          transform: skew(-12deg) rotate(-2deg) !important;
         }
       }
 
