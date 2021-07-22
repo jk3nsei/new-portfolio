@@ -912,6 +912,10 @@ blockquote.electric {
 }
 
 @media screen and (max-width: 375px) {
+#changeText {
+    margin-bottom: 110%;
+}
+
 #education-cards {
   margin-top: 205%;
 }
