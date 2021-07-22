@@ -16,6 +16,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: fixed;
+  z-index: 666;
 }
 
 .loader-container h4 {

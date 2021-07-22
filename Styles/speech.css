@@ -16,14 +16,14 @@ blockquote.bubble {
   height: 0;
   line-height: 1;
   top: 120px;
-  left: -200px;
+  left: -220px;
   border: none;
 }
 
 blockquote.electric {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg);
-  width: 25%;
-  font-size: 2.4vw;
+  width: 27%;
+  font-size: 1.4vw;
   font-style: italic;
   padding: 4% 6% 12% 0%;
 }
