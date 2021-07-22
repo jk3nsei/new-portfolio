@@ -742,7 +742,7 @@ path.two {
       
       @media screen and (max-width: 1908px) {
         .end {
-          margin-top: -2%;
+          margin-top: -2% !important;
         }
 
         .end-btn {
