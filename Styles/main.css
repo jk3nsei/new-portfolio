@@ -3,7 +3,7 @@
 }
 
 .end {
-  margin-top: -1%;
+  /* margin-top: -1%; */
   padding: 0 615px;
 }
 
@@ -741,6 +741,10 @@ path.two {
       }
       
       @media screen and (max-width: 1908px) {
+        .end {
+          margin-top: -2%;
+        }
+
         .end-btn {
           margin-top: -1% !important;
           transform: skew(-12deg) rotate(-2deg) !important;
