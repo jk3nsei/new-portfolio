@@ -791,6 +791,13 @@ path.two {
   }
     }
 
+    @media screen and (max-width: 1398px) {
+      .end-btn{
+        display: none;
+      }
+      
+    }
+
     @media screen and (max-width: 800px) {
       .navbar-button {
         right: 30px !important;
