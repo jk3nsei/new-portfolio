@@ -236,8 +236,8 @@ function showTab(elementId) {
       title: "Database",
       techStack: "MySQL",
       description: "Python/MySQL Online App",
-      githubURL: "https://replit.com/@K3nsei/new-mysql-eomp",
-      liveProjectURL: "https://github.com/K3nsei-dev/new-mysql-eomp"
+      githubURL: "https://github.com/K3nsei-dev/new-mysql-eomp",
+      liveProjectURL: "https://replit.com/@K3nsei/new-mysql-eomp"
     },
     {
       imgURL: "https://picsum.photos/300?random=7",
