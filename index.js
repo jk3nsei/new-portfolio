@@ -230,15 +230,15 @@ function showTab(elementId) {
       githubURL: "https://github.com/K3nsei-dev/new-lotto-program",
       liveProjectURL: "https://replit.com/@K3nsei/new-lotto-program#README.md"
     },
-    {
-      imgURL: "https://picsum.photos/300?random=7",
-      imgALT: "My Project 14",
-      title: "Database",
-      techStack: "MySQL",
-      description: "Python/MySQL Online App",
-      githubURL: "https://github.com/K3nsei-dev/new-mysql-eomp",
-      liveProjectURL: "https://replit.com/@K3nsei/new-mysql-eomp"
-    },
+    // {
+    //   imgURL: "https://picsum.photos/300?random=7",
+    //   imgALT: "My Project 14",
+    //   title: "Database",
+    //   techStack: "MySQL",
+    //   description: "Python/MySQL Online App",
+    //   githubURL: "https://github.com/K3nsei-dev/new-mysql-eomp",
+    //   liveProjectURL: "https://replit.com/@K3nsei/new-mysql-eomp"
+    // },
     {
       imgURL: "https://picsum.photos/300?random=7",
       imgALT: "My Project 15",
