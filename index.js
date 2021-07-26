@@ -102,7 +102,7 @@ function showTab(elementId) {
   // loader 
   // $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
   $(window).on('load', function(){
-    setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+    setTimeout(removeLoader, 3000); //wait for page load PLUS two seconds.
   });
   function removeLoader(){
       $( ".loader-container" ).fadeOut(500, function() {
@@ -138,7 +138,7 @@ function showTab(elementId) {
       techStack: "HTML/CSS",
       description: "HTML/CSS Project Cards",
       githubURL: "https://github.com/K3nsei-dev/my-project-cards",
-      liveProjectURL: "ttps://lca-projects.netlify.app/"
+      liveProjectURL: "https://lca-projects.netlify.app/"
     },
     {
       imgURL: "https://picsum.photos/300?random=23",
