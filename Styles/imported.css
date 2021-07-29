@@ -134,14 +134,14 @@
   }
   
   /* Remove all animations and transitions for people that prefer not to see them */
-  @media (prefers-reduced-motion: reduce) {
+  /* @media (prefers-reduced-motion: reduce) {
     * {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
-  }
+  } */
   
   body {
     color: var(--color-black);
@@ -280,12 +280,12 @@
     background-color: var(--color-white);
   }
   
-  @media (min-width: 540px) {
+  /* @media (min-width: 540px) {
     article .container,
     aside .container {
       padding: 1.75rem 2.5rem 2.5rem;
     }
-  }
+  } */
   
   header a:not([class^="link"]):hover,
   footer a:not([class^="link"]):hover {
@@ -311,7 +311,7 @@
     /* position: fixed; */
   }
   
-  @media (min-width: 540px) {
+  /* @media (min-width: 540px) {
     header,
     nav,
     article,
@@ -319,7 +319,7 @@
     .page-footer {
       padding: 50px;
     }
-  }
+  } */
   
   main {
     padding-top: 6rem;
@@ -363,11 +363,11 @@
     white-space: pre-wrap;
   }
   
-  @media (min-width: 600px) {
+  /* @media (min-width: 600px) {
     header h1 {
       padding: 1em 0 3.25rem;
     }
-  }
+  } */
   
   header h2 {
     max-width: 30ch;
@@ -389,20 +389,20 @@
     background-color: var(--color-red);
   }
   
-  @media (min-width: 540px) {
+  /* @media (min-width: 540px) {
     nav ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
-  }
+  } */
   
   nav ul li {
     margin: 0.375rem 0.375rem 0.5rem;
     text-align: center;
   }
   
-  @media (min-width: 540px) {
+  /* @media (min-width: 540px) {
     nav ul li {
       flex: 1 0 45%;
     }
@@ -418,7 +418,7 @@
     nav ul li {
       flex: 1 0 auto;
     }
-  }
+  } */
   
   nav ul a {
     position: relative;
