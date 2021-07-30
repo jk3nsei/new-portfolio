@@ -174,7 +174,7 @@ function showTab(elementId) {
       techStack: "Python",
       description: "Python/Tkinter BMI Convertor",
       githubURL: "https://github.com/K3nsei-dev/BMI-Converter",
-      liveProjectURL: "https://replit.com/@K3nsei/BMI-Converter"
+      liveProjectURL: "https://replit.com/@K3nsei/BMI-Converter#main.py"
     },
     {
       imgURL: "https://picsum.photos/300?random=7",
@@ -201,7 +201,7 @@ function showTab(elementId) {
       techStack: "Python",
       description: "Python/Tkinter Temp Convertor",
       githubURL: "https://github.com/K3nsei-dev/temperature-converter",
-      liveProjectURL: "https://replit.com/@K3nsei/temperature-converter"
+      liveProjectURL: "https://replit.com/@K3nsei/temperature-converter#main.py"
     },
     {
       imgURL: "https://picsum.photos/300?random=7",
@@ -228,7 +228,7 @@ function showTab(elementId) {
       techStack: "Python",
       description: "Python/Tkinter Lotto Program",
       githubURL: "https://github.com/K3nsei-dev/new-lotto-program",
-      liveProjectURL: "https://replit.com/@K3nsei/new-lotto-program#README.md"
+      liveProjectURL: "https://replit.com/@K3nsei/new-lotto-program#main.py"
     },
     // {
     //   imgURL: "https://picsum.photos/300?random=7",
