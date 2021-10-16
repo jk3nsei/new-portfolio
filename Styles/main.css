@@ -5,6 +5,7 @@
 .end {
   margin-top: -1%;
   padding: 0 615px;
+  min-height: 25vh;
 }
 
 .end-btn {
@@ -149,7 +150,11 @@ path.two {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
+  }
+
+  .social-icons .fab{
+    padding: 10px;
   }
   
   .social-icons .fab:hover {
@@ -157,7 +162,7 @@ path.two {
     border-radius: 10px;
     color: black;
     transition: all 0.3 linear;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .section{
@@ -202,6 +207,13 @@ path.two {
       color: white;
       text-shadow: var(--subheading-text-shadow);
       min-height: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .content blockquote {
@@ -345,7 +357,7 @@ path.two {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    /* height: 65vh; */
   }
   
   .box q {
@@ -532,6 +544,10 @@ path.two {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  #contact-container {
+    min-height: 100vh;
+  }
   
   
   .project-btn {
@@ -548,7 +564,7 @@ path.two {
     transition: all 0.3s linear;
   }
 
-  icon-info {
+  .icon-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -563,6 +579,8 @@ path.two {
   
   .icon-info a{
     font-size: 30px;
+    text-decoration: none;
+    white-space: nowrap;
   }
 
   .icon-info i {
@@ -785,23 +803,18 @@ path.two {
       }
 
       @media screen and (max-width: 1398px ) {
-        .end {
-          display: none;
-        }
-
         .edit {
           padding-bottom: 300px;
         }
       }
 
       @media screen and (max-width: 1366px) {
-        .end {
-          display: none;
-        }
-
         .edit {
           padding-bottom: 300px;
         }
+        .heading-container img {
+          margin-bottom: -8%;
+      }
       }
 
       @media screen and (max-width: 800px) {
