@@ -752,6 +752,7 @@
     position: fixed;
     bottom: 96px;
     left: -30px;
+    z-index: 1;
   }
   
   .ground {
