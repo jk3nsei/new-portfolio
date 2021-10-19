@@ -212,6 +212,8 @@
     text-decoration-thickness: 0.125em;
     text-underline-offset: 0.0875em;
     text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
   }
   
   blockquote {
