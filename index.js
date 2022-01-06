@@ -277,6 +277,12 @@ function showTab(elementId) {
     `;
     return createdCard;
   }
+
+  // function pickUpRandomClass() {
+  //   let randomClass =  Math.round(Math.random() * 2) + 1
+
+  //   return `box${ randomClass }`
+  // }
   
   function renderCards() {
     let projectContainer = document.querySelector(".comic");
