@@ -628,6 +628,10 @@ path.two {
         border-right: 26px solid #fd3400;
         border-bottom: 13px solid transparent;
       }
+
+      textarea {
+        resize: none;
+     }
       
       .form-group {
         display: flex;
